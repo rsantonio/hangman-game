@@ -1,0 +1,15 @@
+body {
+	font-family:'Permanent Marker', cursive;
+	font-size: 20px;
+	line-height: 34px;
+	color: #777;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#container {
+	text-align: center;
+	font-weight: bold;
+}

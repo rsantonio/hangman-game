@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en us">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Game | Hangman</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Kaushan+Script|Lobster|Pacifico|Permanent+Marker|Sedgwick+Ave" rel="stylesheet">
+
+</head>
+<body>
+	<div class ="jumbotron jumbotron-fluid">
+		<div class="container">
+			<h1 class ="display"> Animal Hangman!</h1>
+			<p class ="rules">Try to guess the workd in the least about of tries!</p>
+			<hr class="play">
+				<p id = "gameStatus"></p>
+				<p> Let's play!</p>
+		</div>
+	</div>
+
+Guess the word: <span id="spanChoosenWord"></span><br/>
+
+Number of Tries Left: <span id="spanNumberTries"></span><br/>
+
+Guessed Letters: <span id="spanGuessedLetters"></span><br/>
+
+Number of Wins: <span id="spanWins">0</span><br/>
+
+Number of Losses: <span id="spanLoss">0</span><br/>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
+
